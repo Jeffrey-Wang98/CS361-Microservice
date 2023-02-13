@@ -1,0 +1,18 @@
+{
+  "name": "cs361-microservice",
+  "version": "1.0.0",
+  "description": "Microservice that calls Exercise API from API Ninja and responds to HTTP Requests",
+  "main": "server.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.mjs"
+  },
+  "author": "Jeffrey Wang",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.0"
+  }
+}
